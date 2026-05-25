@@ -1,5 +1,5 @@
 /* ==========================================================================
-   RESET & BASE STYLES (Mengatur Font & Dasar Halaman)
+   RESET & BASE STYLES
    ========================================================================== */
 * {
     margin: 0;
@@ -9,12 +9,12 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f7f1eb; /* Warna latar belakang krem pucat estetik */
-    color: #4a332d; /* Warna teks cokelat tua */
+    background-color: #f7f1eb;
+    color: #4a332d;
 }
 
 /* ==========================================================================
-   1. NAVBAR STYLES (Mengubah menu vertikal jadi horizontal)
+   1. NAVBAR STYLES
    ========================================================================== */
 .navbar {
     display: flex;
@@ -51,12 +51,12 @@ body {
 }
 
 /* ==========================================================================
-   2. HERO SECTION STYLES (Bagian Banner Cokelat Muda)
+   2. HERO SECTION STYLES
    ========================================================================== */
 .hero-section {
-    background-color: #d7c0ae; /* Warna cokelat susu hangat */
+    background-color: #d7c0ae;
     text-align: center;
-    padding: 60px 20px 180px 20px; 
+    padding: 60px 20px 180px 20px;
     position: relative;
 }
 
@@ -94,7 +94,7 @@ body {
 
 .hero-image-container {
     position: absolute;
-    bottom: -120px; 
+    bottom: -120px;
     left: 50%;
     transform: translateX(-50%);
     width: 320px;
@@ -105,16 +105,16 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 25px; 
-    border: 8px solid #f7f1eb; 
-    box-shadow: 0 10px 30px rgba(74, 51, 45, 0.25); 
+    border-radius: 25px;
+    border: 8px solid #f7f1eb;
+    box-shadow: 0 10px 30px rgba(74, 51, 45, 0.25);
 }
 
 /* ==========================================================================
-   3. MAIN CONTENT & CARDS (Bagian Bawah: Kopi Pilihan)
+   3. MAIN CONTENT & CARDS
    ========================================================================== */
 .main-content {
-    padding: 160px 8% 60px 8%; 
+    padding: 160px 8% 60px 8%;
     text-align: center;
 }
 
@@ -129,11 +129,11 @@ body {
     display: flex;
     justify-content: center;
     gap: 25px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .card {
-    background-color: #ebd8c5; 
+    background-color: #ebd8c5;
     border: 1px solid rgba(74, 51, 45, 0.1);
     border-radius: 20px;
     padding: 30px 25px;
@@ -160,7 +160,7 @@ body {
 }
 
 /* ==========================================================================
-   HALAMAN ABOUT US 
+   HALAMAN ABOUT US
    ========================================================================== */
 .about-hero {
     background-color: #d7c0ae;
@@ -186,11 +186,11 @@ body {
     padding: 0 4%;
     display: flex;
     align-items: center;
-    gap: 50px; 
+    gap: 50px;
 }
 
 .about-text {
-    flex: 1; 
+    flex: 1;
 }
 
 .about-text h2 {
@@ -226,7 +226,7 @@ body {
 }
 
 .about-image {
-    flex: 1; 
+    flex: 1;
     display: flex;
     justify-content: center;
 }
@@ -238,11 +238,11 @@ body {
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(74, 51, 45, 0.15);
-    border: 6px solid #ebd8c5; 
+    border: 6px solid #ebd8c5;
 }
 
 /* ==========================================================================
-   HALAMAN MENU 
+   HALAMAN MENU
    ========================================================================== */
 .menu-hero {
     background-color: #d7c0ae;
@@ -286,7 +286,7 @@ body {
 .menu-item {
     background-color: #ebd8c5;
     border-radius: 15px;
-    overflow: hidden; 
+    overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease;
     display: flex;
@@ -307,7 +307,7 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    flex-grow: 1; 
+    flex-grow: 1;
 }
 
 .menu-info h3 {
@@ -354,7 +354,7 @@ body {
 }
 
 /* ==========================================================================
-   HALAMAN CONTACT 
+   HALAMAN CONTACT
    ========================================================================== */
 .contact-hero {
     background-color: #d7c0ae;
@@ -482,7 +482,7 @@ body {
 
 .form-group input:focus, 
 .form-group textarea:focus {
-    border-color: #4a332d; 
+    border-color: #4a332d;
 }
 
 .submit-btn {
@@ -576,7 +576,7 @@ body {
 }
 
 /* ==========================================================================
-   MEDIA QUERIES (RESPONSIVE LAYOUT)
+   MEDIA QUERIES
    ========================================================================== */
 @media (max-width: 768px) {
     .navbar {
@@ -591,7 +591,7 @@ body {
         align-items: center;
     }
     .about-container {
-        flex-direction: column; 
+        flex-direction: column;
         text-align: center;
         gap: 30px;
         margin: 30px auto;
@@ -606,7 +606,7 @@ body {
         height: 250px;
     }
     .contact-container {
-        flex-direction: column; 
+        flex-direction: column;
         gap: 40px;
     }
     .contact-form-box {
